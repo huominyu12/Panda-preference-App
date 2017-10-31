@@ -1,0 +1,50 @@
+.border-bottom-3px(@color,@bottom,@left,@width) {
+  position: relative;
+  &:after {
+    position: absolute;
+    left: @left;
+    bottom: @bottom;
+    display: block;
+    width: @width;
+    border-bottom: 3px solid @color;
+    content: '';
+  }
+}
+
+.topcolor {
+  &.one {
+    background: #ff7d01;
+  }
+  &.two {
+    background: #feb902;
+  }
+  &.third {
+    background: #fdda60;
+  }
+}
+
+.num(@color) {
+  .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background: @color;
+    color: rgb(255, 255, 255);
+    border-bottom:1px solid @color;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+ .bottom {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    display: inline-block;
+    border: 10px solid transparent;
+    border-top: 10px solid @color;
+  }
+}
+
