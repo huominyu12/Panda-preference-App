@@ -73,6 +73,12 @@
         if (val) {
           this.$nextTick(() => {
             document.addEventListener('touchmove', this.middleContent, {passive: true})
+//            if (this.$refs.middleContent) {
+//              this.middleContent = new IScroll(this.$refs.middleContent, {
+//                click: true,
+//                scrollx: true
+//              })
+//            }
           })
         }
       }

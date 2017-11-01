@@ -30,7 +30,7 @@
           <span class="couponValue">{{goodDetail.couponValue.slice(0, -1)}}淘宝优惠券</span></br>
           <span class="expireMsg">{{goodDetail.expireMsg}}</span>
         </div>
-        <span class="add" @click="addToCart(goodDetail)" :class="{'reflesh':isAdd}">{{isAdd}}</span>
+        <span class="add" @click="addToCart(goodDetail)" >{{isAdd}}</span>
       </div>
     </div>
 

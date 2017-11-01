@@ -5,6 +5,6 @@ export default {
   allConponValue: state => state.allConponValue,
   sellCount: state => state.sellCount,
   goodDetail: state => state.goodDetail,
-  cartGoods: state => state.cartGoods,
-  isAdd: state => state.isAdd
+  cartGoods: state => state.cartGoods
+
 }

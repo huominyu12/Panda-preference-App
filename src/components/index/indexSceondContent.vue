@@ -32,7 +32,7 @@
           <img :src="item.image" width="100%" height="250px" style="vertical-align:top;">
           <div class="detail-box">
             <div class="good-detail">
-              <img src="" width="20px" height="20px">
+              <img src="../../common/img/taobao.jpg" width="20px" height="20px" style="vertical-align: top">
               <span class="free-shopping" v-if="item.isFreePostage">包邮</span>
               <span class="good-title">{{item.title}}</span>
             </div>

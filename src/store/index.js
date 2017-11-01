@@ -14,8 +14,7 @@ const state = {
   allConponValue: [],
   sellCount: [],
   goodDetail: {},
-  cartGoods: [],
-  isAdd: false
+  cartGoods: []
 }
 
 export default new Vuex.Store({
